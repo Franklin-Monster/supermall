@@ -1,0 +1,14 @@
+module.exports={
+    //此文件用于配置文件夹别名，可与脚手架自带的webpack配置合并
+    configureWebpack:{
+        resolve:{
+            alias:{
+                'assets':'@/assets',
+                'common':"@/common",
+                'components':'@/components',
+                'network':'@/network',
+                'views':'@views'
+            }
+        }
+    }
+}
